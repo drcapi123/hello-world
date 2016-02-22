@@ -6,7 +6,7 @@ class Solver:
         while True:
             a = int(input("a "))
             b = int(input("b "))
-            c = int(input("e "))
+            x = int(input("e "))
             d = b ** 2 - 4 * a * c
             if d >= 0:
                 dis = math.sqrt(d)
