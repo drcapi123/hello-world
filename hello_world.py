@@ -8,6 +8,7 @@ class Solver:
             b = int(input("b "))
             x = int(input("e "))
             d = b ** 2 - 4 * a * c
+
             if d >= 0:
                 dis = math.sqrt(d)
                 root1 = (-b + disc) / (2 * a)
